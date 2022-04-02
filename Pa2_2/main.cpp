@@ -13,7 +13,7 @@ void create_example(int n) {
 		e[i] = new Example(i);
 			
 	// (6)getData()
-	e[9]=new Example(9);
+	static Example Example_6(23);	
 	e[0]->getData();
 	e[1]->getData();
 	e[2]->getData();
@@ -21,7 +21,7 @@ void create_example(int n) {
 	for(int i =0;i<3;i++)
 	e[i]->~Example();
 	//get data 6
-	e[9]->getData();
+	Example_6.getData();
 
 	
 	cout << "--------create_example is over--------\n";
