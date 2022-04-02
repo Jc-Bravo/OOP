@@ -36,7 +36,7 @@ Example::Example(int data) {
 	default:
 		break;
 	}
-	cout << "#Example #"<<nums<<" is created\n";
+	cout << "Example #"<<nums<<" is created\n";
 }
 
 void Example::getData() {
