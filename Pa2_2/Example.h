@@ -5,8 +5,10 @@ class Example {
 		
 private:
 	
-	// (1)
-			
+	// (1)number to 
+	static int nums;
+	int num;
+	int Data;
 public:
 	
 	Example(int data);

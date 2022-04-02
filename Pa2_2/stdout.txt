@@ -23,3 +23,8 @@ Example #7 is destroyed
 Example #2 is destroyed
 Example #6 is destroyed
 Example #1 is destroyed
+
+建议在类中增加一个成员变量，
+记录类已经有了多少实例了。
+建议在类中再增加一个成员变量，
+记录实例的编号。
